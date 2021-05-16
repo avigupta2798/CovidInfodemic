@@ -6,10 +6,10 @@ import glob
 import random
 import tweepy
 n=400
-access_token = "813274164492529665-wPAJPScMbuU8oOKlvoHO3m4kK14pL0z"
-access_token_secret = "jMD3lboNidIti6RoygcLH32OrTem2uddgWKE8ZuHY0AMv"
-consumer_key = "dvgZ3nJuemHAV7gY7v2IPpPEZ"
-consumer_secret = "LL8E0WYTg8iKh12IKbCAeQ63xyZsi48GXDq9GLb7AoaCAgxGpb"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
